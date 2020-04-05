@@ -1,0 +1,12 @@
+span{
+    font-size: 12pt;
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 50px;
+}

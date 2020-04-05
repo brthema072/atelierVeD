@@ -1,1 +1,20 @@
-<p>tool-bar works!</p>
+<mat-toolbar fxLayout="row" fxLayoutAlign="space-around center">
+    <a routerLink="">
+        <span>Home</span>
+    </a>
+    <a routerLink="agenda">
+        <span>Marque um horário</span>    
+    </a>
+    <a routerLink="onde-estamos">
+        <span>Onde estamos</span>
+    </a>
+    <a routerLink="sobre-nos">
+        <span>Veja quem somos!</span>
+    </a>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
+
+<footer fxLayoutAlign="space-evenly center">
+    © {{ano}} · Todos os direitos reservados - Atelier de Beleza · Valdir Duarte
+</footer>
