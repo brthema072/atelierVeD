@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ToolBarComponent implements OnInit {
 
-  constructor() { }
+  ano;
+
+  constructor() {
+    let dataAtual = new Date();
+    this.ano = dataAtual.getFullYear()  
+  }
 
   ngOnInit() {
   }
